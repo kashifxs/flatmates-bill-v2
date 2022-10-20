@@ -1,0 +1,26 @@
+Title: FlatmatesBill2
+Description: An application that gets input for number of flatmates along with their checkin and checkout dates and returns the share of bill to be paid by them.
+A bill has static costs and variable costs (like maintainence cost is static and utility bills are variable). Application also generate a pdf report for the quarter stating the names , number of days , share and total amount
+
+Duration
+    check In Date
+    check Out Date
+
+Flatmates
+    total number of flatmates - class variable
+    name
+    Duration[]
+    pay()
+Cost
+    cost type (fixed/variable)
+    cost amount
+
+Bill
+    costs[]
+
+
+Generator
+    Bill
+    Flatmates[]
+
+
